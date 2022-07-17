@@ -2,7 +2,12 @@
   "name": "my-ts-app",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anmdsystems/my-ts-app.git"
+  },
   "dependencies": {
+    "test-component-library": "git+https://github.com/anmdsystems/test-component-library.git",
     "@emotion/react": "^11.9.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
@@ -16,8 +21,12 @@
     "web-vitals": "^2.1.4"
   },
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "resolutions": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,6 +48,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6"
+    "@types/react-dom": "^18.0.6",
+    "@babel/runtime": "7.13.8"
   }
 }

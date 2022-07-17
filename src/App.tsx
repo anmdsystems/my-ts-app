@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Button } from 'sampletest';
-
-// import {ApricusTableProps as ApricusTableProps, 
-//   ApricusTable, ApricusTableSelectedAction, ApricusTableAction, Counter} from 'apricus-react-lib';
+import { Button } from 'test-component-library';
 
 function App() { 
   return <Button label="Test" ></Button>
